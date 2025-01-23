@@ -216,9 +216,14 @@ th {
 </li>
 <li><a href="#_modelltransformationen">5. Modelltransformationen</a>
 <ul class="sectlevel2">
-<li><a href="#_transformation_ins_minimale_geodatenmodell_des_bundes">5.1. Transformation ins minimale Geodatenmodell des Bundes</a>
+<li><a href="#_transformation_vom_erfassungsmodell_ins_publikationsmodell">5.1. Transformation vom Erfassungsmodell ins Publikationsmodell</a>
 <ul class="sectlevel3">
 <li><a href="#_klasse_schutzwald_2">5.1.1. Klasse <code>Schutzwald</code></a></li>
+</ul>
+</li>
+<li><a href="#_transformation_vom_publikationsmodell_ins_minimale_geodatenmodell_des_bundes">5.2. Transformation vom Publikationsmodell ins minimale Geodatenmodell des Bundes</a>
+<ul class="sectlevel3">
+<li><a href="#_klasse_schutzwald_3">5.2.1. Klasse <code>Schutzwald</code></a></li>
 </ul>
 </li>
 </ul>
@@ -519,11 +524,96 @@ Kuno Epper (Kep), AGI</p></td>
 <h2 id="_modelltransformationen"><a class="anchor" href="#_modelltransformationen"></a><a class="link" href="#_modelltransformationen">5. Modelltransformationen</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_transformation_ins_minimale_geodatenmodell_des_bundes"><a class="anchor" href="#_transformation_ins_minimale_geodatenmodell_des_bundes"></a><a class="link" href="#_transformation_ins_minimale_geodatenmodell_des_bundes">5.1. Transformation ins minimale Geodatenmodell des Bundes</a></h3>
+<h3 id="_transformation_vom_erfassungsmodell_ins_publikationsmodell"><a class="anchor" href="#_transformation_vom_erfassungsmodell_ins_publikationsmodell"></a><a class="link" href="#_transformation_vom_erfassungsmodell_ins_publikationsmodell">5.1. Transformation vom Erfassungsmodell ins Publikationsmodell</a></h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Quellmodell: Das hier beschriebene Datenmodell</p>
+<p>Quellmodell: Erfassungsmodell</p>
+</li>
+<li>
+<p>Zielmodell: Publikationsmodell</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_klasse_schutzwald_2"><a class="anchor" href="#_klasse_schutzwald_2"></a><a class="link" href="#_klasse_schutzwald_2">5.1.1. Klasse <code>Schutzwald</code></a></h4>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Quellattribut</th>
+<th class="tableblock halign-left valign-top">Prozess</th>
+<th class="tableblock halign-left valign-top">Zielattribut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>OID</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>OID</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>erfasstVon</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>erfasstVon</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>erfasstAm</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>erfasstAm</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>geaendertVon</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>geaendertVon</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>geaendertAm</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>geaendertAm</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">- - -</p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">berechneter Wert;<br>
+Verschnitt der Geometrie mit der Geometrie der Forstkreise</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Forstkreis</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>- - -</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">berechneter Wert;<br>
+Verschnitt der Geometrie mit der Geometrie der Forstkreviere</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Forstrevier</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>- - -</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">berechneter Wert;<br>
+Flächeninhalt in Hektaren rechnen (zwei Nachkommastellen)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Flaecheninhalt</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Bemerkung</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Bemerkung</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Geometrie</code></p></td>
+<td class="tableblock halign-center valign-top"><p class="tableblock">&#8594;</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>Geometrie</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_transformation_vom_publikationsmodell_ins_minimale_geodatenmodell_des_bundes"><a class="anchor" href="#_transformation_vom_publikationsmodell_ins_minimale_geodatenmodell_des_bundes"></a><a class="link" href="#_transformation_vom_publikationsmodell_ins_minimale_geodatenmodell_des_bundes">5.2. Transformation vom Publikationsmodell ins minimale Geodatenmodell des Bundes</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Quellmodell: Publikationsmodell</p>
 </li>
 <li>
 <p>Zielmodell: <a href="http://models.geo.admin.ch/BAFU/Schutzwald_V1.ili">Schutzwald_LV95_V1</a> (Version: 2020-06-16)</p>
@@ -531,7 +621,7 @@ Kuno Epper (Kep), AGI</p></td>
 </ul>
 </div>
 <div class="sect3">
-<h4 id="_klasse_schutzwald_2"><a class="anchor" href="#_klasse_schutzwald_2"></a><a class="link" href="#_klasse_schutzwald_2">5.1.1. Klasse <code>Schutzwald</code></a></h4>
+<h4 id="_klasse_schutzwald_3"><a class="anchor" href="#_klasse_schutzwald_3"></a><a class="link" href="#_klasse_schutzwald_3">5.2.1. Klasse <code>Schutzwald</code></a></h4>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
@@ -557,7 +647,7 @@ Kuno Epper (Kep), AGI</p></td>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-01-23 09:45:40 UTC
+Last updated 2025-01-23 10:31:04 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
