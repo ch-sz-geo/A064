@@ -1,4 +1,6 @@
 == Klassenbeschreibung
+Die Klassenbeschreibung erfolgt auf der Grundlage des Publikaionsmodells. Dies desahlb, weil das Publikationsmodell den vollständigen Attributumfang aufweis.
+
 === Topic `+Fachdaten+`
 Das Topic `+Fachdaten+` umfasst die eigentlichen, fachlichen Klassen des Themas.
 
@@ -37,7 +39,7 @@ m| Forstrevier
 | 9
 | öffentlich
 m| Flaecheninhalt
-| Flächeninhalt der Schutzwaldgeometrie in Hektaren (ha)
+| Flächeninhalt der Schutzwaldgeometrie in Hektaren [ha]
 | 157.58
 | öffentlich
 m| Bemerkung
