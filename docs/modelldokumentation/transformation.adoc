@@ -1,6 +1,29 @@
 == Modelltransformationen
-=== Transformation ins minimale Geodatenmodell des Bundes
-* Quellmodell: Das hier beschriebene Datenmodell
+=== Transformation vom Erfassungsmodell ins Publikationsmodell
+* Quellmodell: Erfassungsmodell
+* Zielmodell: Publikationsmodell
+
+==== Klasse `+Schutzwald+`
+[cols=3*,options="header"]
+|===
+| Quellattribut | Prozess | Zielattribut
+m| OID ^| -> m| OID
+m| erfasstVon ^| -> m| erfasstVon
+m| erfasstAm ^| -> m| erfasstAm
+m| geaendertVon ^| -> m| geaendertVon
+m| geaendertAm ^| -> m| geaendertAm
+| - - - ^| berechneter Wert; +
+Verschnitt der Geometrie mit der Geometrie der Forstkreise m| Forstkreis
+m| - - - ^| berechneter Wert; +
+Verschnitt der Geometrie mit der Geometrie der Forstkreviere m| Forstrevier
+m| - - - ^| berechneter Wert; +
+Flächeninhalt in Hektaren rechnen (zwei Nachkommastellen) m| Flaecheninhalt
+m| Bemerkung ^| -> m| Bemerkung
+m| Geometrie ^| -> m| Geometrie
+|===
+
+=== Transformation vom Publikationsmodell ins minimale Geodatenmodell des Bundes
+* Quellmodell: Publikationsmodell
 * Zielmodell: http://models.geo.admin.ch/BAFU/Schutzwald_V1.ili[Schutzwald_LV95_V1] (Version: 2020-06-16)
 
 ==== Klasse `+Schutzwald+`
