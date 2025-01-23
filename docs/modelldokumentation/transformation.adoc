@@ -12,11 +12,11 @@ m| erfasstVon ^| -> m| erfasstVon
 m| erfasstAm ^| -> m| erfasstAm
 m| geaendertVon ^| -> m| geaendertVon
 m| geaendertAm ^| -> m| geaendertAm
-| - - - ^| berechneter Wert; +
+| - - - | berechneter Wert; +
 Verschnitt der Geometrie mit der Geometrie der Forstkreise m| Forstkreis
-m| - - - ^| berechneter Wert; +
+m| - - - | berechneter Wert; +
 Verschnitt der Geometrie mit der Geometrie der Forstkreviere m| Forstrevier
-m| - - - ^| berechneter Wert; +
+m| - - - | berechneter Wert; +
 Flächeninhalt in Hektaren rechnen (zwei Nachkommastellen) m| Flaecheninhalt
 m| Bemerkung ^| -> m| Bemerkung
 m| Geometrie ^| -> m| Geometrie
@@ -27,10 +27,10 @@ m| Geometrie ^| -> m| Geometrie
 * Zielmodell: http://models.geo.admin.ch/BAFU/Schutzwald_V1.ili[Schutzwald_LV95_V1] (Version: 2020-06-16)
 
 ==== Klasse `+Schutzwald+`
-[cols=2*,options="header"]
+[cols=3*,options="header"]
 |===
-| Quellattribut | Zielattribut
-| `+SZ_Schutzwald_V1.Fachdaten.Schutzwald.Flaeche+` m| Flaeche
+| Quellattribut | Prozess | Zielattribut
+| `+SZ_Schutzwald_V1.Fachdaten.Schutzwald.Flaeche+` ^| -> m| Flaeche
 |===
 
 ifdef::backend-pdf[]
