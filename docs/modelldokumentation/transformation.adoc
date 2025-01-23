@@ -15,9 +15,9 @@ m| geaendertAm ^| -> m| geaendertAm
 | - - - | berechneter Wert; +
 Verschnitt der Geometrie mit der Geometrie der Forstkreise m| Forstkreis
 m| - - - | berechneter Wert; +
-Verschnitt der Geometrie mit der Geometrie der Forstkreviere m| Forstrevier
+Verschnitt der Geometrie mit der Geometrie der Forstreviere m| Forstrevier
 m| - - - | berechneter Wert; +
-Flächeninhalt in Hektaren rechnen (zwei Nachkommastellen) m| Flaecheninhalt
+Flächeninhalt der Schutzwaldgeometrie in Hektaren; auf zwei Nachkommastellen gerundet m| Flaecheninhalt
 m| Bemerkung ^| -> m| Bemerkung
 m| Geometrie ^| -> m| Geometrie
 |===
