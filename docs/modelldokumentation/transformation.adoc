@@ -13,9 +13,9 @@ m| erfasstAm ^| -> m| erfasstAm
 m| geaendertVon ^| -> m| geaendertVon
 m| geaendertAm ^| -> m| geaendertAm
 | - - - | berechneter Wert; +
-Verschnitt der Geometrie mit der Geometrie der Forstkreise m| Forstkreis
+Verschnitt der Schutzwaldgeometrie mit dem Forstkreis (vgl. Thema https://ch-sz-geo.github.io/A064/[A064]) m| Forstkreis
 | - - - | berechneter Wert; +
-Verschnitt der Geometrie mit der Geometrie der Forstreviere m| Forstrevier
+Verschnitt der Schutzwaldgeometrie mit dem Forstrevier (vgl. Thema https://ch-sz-geo.github.io/A064/[A064]) m| Forstrevier
 | - - - | berechneter Wert; +
 Flächeninhalt der Schutzwaldgeometrie in Hektaren; auf zwei Nachkommastellen gerundet m| Flaecheninhalt
 m| Bemerkung ^| -> m| Bemerkung
