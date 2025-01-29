@@ -201,10 +201,9 @@ th {
 <li><a href="#_modellbeschreibung">2. Modellbeschreibung</a></li>
 <li><a href="#_diagramme">3. Diagramme</a>
 <ul class="sectlevel2">
-<li><a href="#_bewirtschaftungsmodell_komponentendiagramm">3.1. Bewirtschaftungsmodell: Komponentendiagramm</a></li>
-<li><a href="#_bewirtschaftungsmodell_klassendiagramm">3.2. Bewirtschaftungsmodell: Klassendiagramm</a></li>
-<li><a href="#_publikationsmodell_komponentendiagramm">3.3. Publikationsmodell: Komponentendiagramm</a></li>
-<li><a href="#_publikationsmodell_klassendiagramm">3.4. Publikationsmodell: Klassendiagramm</a></li>
+<li><a href="#_komponentendiagramm_beide_modelle">3.1. Komponentendiagramm (beide Modelle)</a></li>
+<li><a href="#_bearbeitungsmodell_klassendiagramm">3.2. Bearbeitungsmodell: Klassendiagramm</a></li>
+<li><a href="#_publikationsmodell_klassendiagramm">3.3. Publikationsmodell: Klassendiagramm</a></li>
 </ul>
 </li>
 <li><a href="#_klassenbeschreibung">4. Klassenbeschreibung</a>
@@ -412,45 +411,37 @@ Kuno Epper (Kep), AGI</p></td>
 <div class="ulist">
 <ul>
 <li>
-<p>ein Modell zur Datenbewirtschaftung (<strong>Bewirtschaftungmodell</strong>) und</p>
+<p>ein Modell zur Datenbearbeitung (<strong>Bearbeitungsmodell</strong>) und</p>
 </li>
 <li>
-<p>ein Modell zur Datenpublikation (<strong>Publikationsmodell</strong>).</p>
+<p>ein Modell zur Datenpublikation (<strong>Publikationsmodell intern</strong>).</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Die Datennachführung erfolgt gemäss dem <strong>Bewirtschaftungsmodell.</strong> Anhand dieses Modells werden neue Schutzwälder eingefügt und bestehende verändert oder gelöscht. Aufgrund der Lage eines Schutzwaldes können weitere Merkmale bestimmt werden. Diese sind z.B. der Forstkreis oder das Frostrevier, in welchem der Schutzwald liegt. Diese abgeleiteten Informationen werden bei der Datenpublikation berechnet und dem Datensatz hinzugefügt. Sie sind Bestandteil des <strong>Publikationsmodells,</strong> welches einen gegenüber dem Bewirtschaftungsmodell erweiterten Attributumfang aufweist.</p>
+<p>Die Datennachführung erfolgt gemäss dem <strong>Bearbeitungsmodell.</strong> Anhand dieses Modells werden neue Schutzwälder eingefügt und bestehende verändert oder gelöscht. Aufgrund der Lage eines Schutzwaldes können weitere Merkmale bestimmt werden. Diese sind z.B. der Forstkreis oder das Frostrevier, in welchem der Schutzwald liegt. Diese abgeleiteten Informationen werden bei der Datenpublikation berechnet und dem Datensatz hinzugefügt. Sie sind Bestandteil des <strong>verwaltungsinternen Publikationsmodells,</strong> welches einen gegenüber dem Bearbeitungsmodell erweiterten Attributumfang aufweist. Das verwaltungsinterne Publikationsmodell weist Attribute auf, die im öffentlichen Datensatz entfernt werden (z.B. die Angaben der Person, welche den Datensatz erfasst hat).</p>
 </div>
 <div class="sect2">
-<h3 id="_bewirtschaftungsmodell_komponentendiagramm"><a class="anchor" href="#_bewirtschaftungsmodell_komponentendiagramm"></a><a class="link" href="#_bewirtschaftungsmodell_komponentendiagramm">3.1. Bewirtschaftungsmodell: Komponentendiagramm</a></h3>
+<h3 id="_komponentendiagramm_beide_modelle"><a class="anchor" href="#_komponentendiagramm_beide_modelle"></a><a class="link" href="#_komponentendiagramm_beide_modelle">3.1. Komponentendiagramm (beide Modelle)</a></h3>
 <div class="imageblock">
 <div class="content">
-<img src="data:image/jpg;base64," alt="Komponentendiagramm">
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_bewirtschaftungsmodell_klassendiagramm"><a class="anchor" href="#_bewirtschaftungsmodell_klassendiagramm"></a><a class="link" href="#_bewirtschaftungsmodell_klassendiagramm">3.2. Bewirtschaftungsmodell: Klassendiagramm</a></h3>
-<div class="imageblock">
-<div class="content">
-<img src="data:image/jpg;base64," alt="Klassendiagramm">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAA5CAIAAAATGloOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAFJSURBVGhD7ZFRDsMgDEN3/7PtTl1EEiuCrHR06wT1kz8SA6ue9thuACVXgZKrUEs+vo397l9JJJ/b81uh5HVQ8nQoeR2UPB1KXsddJRfAZJzf/pN/CSULlJwjlCxQco5QslBJyhqJR9107+9f+PRziDw0GacvGdeP0n27f2H40/LQZJxBSemVtoxrW8Ym9loKR1Zt0KPUSGMyzohkLDGnQ1piaMs4d0/jrANWk3H6kiD2CPr2QmzSa+0TSXszfZKWWE3GGfknJdIDNDhtm/RaNYPqVEtQnVazribjjEimH2hvdq8dLOMpkj7BajLOKUkZ4vxuSEsZjpc6dEusJuOMSEqk16N4ASXWd7Ou+yUazIKu2qSzribjdCRnDCULlJwjlCxQco5QskDJOULJAiXnCCULlJwjlCzcRXIBTMap9yWh5CpQcg227QX88l692+NQeAAAAABJRU5ErkJggg==" alt="SZ Schutzwald V1 Komponentendiagramm">
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_publikationsmodell_komponentendiagramm"><a class="anchor" href="#_publikationsmodell_komponentendiagramm"></a><a class="link" href="#_publikationsmodell_komponentendiagramm">3.3. Publikationsmodell: Komponentendiagramm</a></h3>
+<h3 id="_bearbeitungsmodell_klassendiagramm"><a class="anchor" href="#_bearbeitungsmodell_klassendiagramm"></a><a class="link" href="#_bearbeitungsmodell_klassendiagramm">3.2. Bearbeitungsmodell: Klassendiagramm</a></h3>
 <div class="imageblock">
 <div class="content">
-<img src="data:image/jpg;base64," alt="Komponentendiagramm">
+<img src="data:image/png;base64,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" alt="SZ Schutzwald V1 Bearbeitung Klassendiagramm">
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_publikationsmodell_klassendiagramm"><a class="anchor" href="#_publikationsmodell_klassendiagramm"></a><a class="link" href="#_publikationsmodell_klassendiagramm">3.4. Publikationsmodell: Klassendiagramm</a></h3>
+<h3 id="_publikationsmodell_klassendiagramm"><a class="anchor" href="#_publikationsmodell_klassendiagramm"></a><a class="link" href="#_publikationsmodell_klassendiagramm">3.3. Publikationsmodell: Klassendiagramm</a></h3>
 <div class="imageblock">
 <div class="content">
-<img src="data:image/jpg;base64," alt="Klassendiagramm">
+<img src="data:image/png;base64,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" alt="SZ Schutzwald V1 Klassendiagramm">
 </div>
 </div>
 </div>
@@ -687,7 +678,7 @@ Flächeninhalt der Schutzwaldgeometrie in Hektaren; auf zwei Nachkommastellen ge
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-01-29 09:14:07 UTC
+Last updated 2025-01-29 09:19:26 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
