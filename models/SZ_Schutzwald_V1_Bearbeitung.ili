@@ -1,7 +1,7 @@
 INTERLIS 2.4;
 !!==============================================================================
-!!@ Title               = "Schutzwald (Bewirtschaftungsmodell)";
-!!@ shortDescription    = "Modell zur Bewirtschaftung der Daten des Themas 'Waldfunktion im Bereich Schutzwald'. Das Modell basiert auf dem Bundesmodell zum Geobasisdatensatz ID 161.2 und ergänzt dieses mit den kantonalen Mehranforderungen";
+!!@ Title               = "Schutzwald (Bearbeitungsmodell)";
+!!@ shortDescription    = "Modell zur Datenbearbeitung des Themas 'Waldfunktion im Bereich Schutzwald'. Das Modell basiert auf dem Bundesmodell zum Geobasisdatensatz ID 161.2 und ergänzt dieses mit den kantonalen Mehranforderungen";
 !!@ technicalContact    = "mailto:geoportal@sz.ch";
 !!@ furtherInformation  = "https://www.sz.ch";
 !!@ Themennummer        = "A064";
@@ -14,7 +14,7 @@ INTERLIS 2.4;
 !!------------------------------------------------------------------------------
 !! 2025-01-23 | 1.0 | Kep | Erstfassung
 !!==============================================================================
-MODEL SZ_Schutzwald_V1_Bewirtschaftung (de)
+MODEL SZ_Schutzwald_V1_Bearbeitung (de)
   AT "https://models.geo.sz.ch"
   VERSION "2025-01-23" =
 
@@ -44,4 +44,4 @@ MODEL SZ_Schutzwald_V1_Bewirtschaftung (de)
 
   END Fachdaten;
 
-END SZ_Schutzwald_V1_Bewirtschaftung.
+END SZ_Schutzwald_V1_Bearbeitung.
