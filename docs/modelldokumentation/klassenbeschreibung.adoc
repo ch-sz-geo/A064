@@ -43,8 +43,8 @@ m| Flaecheninhalt
 | 157.58
 | öffentlich
 m| Bemerkung
-| öffentliche Bemerkung zum Objekt
-| Das ist eine öffentliche Bemerkung
+| Bemerkung zum Objekt
+| Das ist eine Bemerkung
 | +++<span style="color:red;">intern</span>+++
 4+| *Geometrie*
 m| Geometrie
