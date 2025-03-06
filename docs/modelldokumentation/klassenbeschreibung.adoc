@@ -1,5 +1,5 @@
 == Klassenbeschreibung
-Die Klassenbeschreibung erfolgt auf der Grundlage des Publikaionsmodells. Dies desahlb, weil das Publikationsmodell den vollständigen Attributumfang aufweis.
+Die Klassenbeschreibung erfolgt auf der Grundlage des Publikaionsmodells. Dies deshalb, weil das Publikationsmodell den vollständigen Attributumfang aufweis.
 
 === Topic `+Fachdaten+`
 Das Topic `+Fachdaten+` umfasst die eigentlichen, fachlichen Klassen des Themas.
@@ -45,7 +45,7 @@ m| Flaecheninhalt
 m| Bemerkung
 | öffentliche Bemerkung zum Objekt
 | Das ist eine öffentliche Bemerkung
-| öffentlich
+| +++<span style="color:red;">intern</span>+++
 4+| *Geometrie*
 m| Geometrie
 | Geometrie des Objektes
