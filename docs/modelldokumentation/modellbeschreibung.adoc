@@ -1,6 +1,14 @@
 == Modellbeschreibung
 
-<Beschreibung einfügen>
+=== Definition von Schutzwald
+Eine einheitliche Definition und Anwendung des Begriffes Schutzwald ist für eine erfolgreiche Schutzwaldpolitik und eine Schutzwaldausscheidung zentral. Auf Anregung der Konferenz der Kantonsoberförster wurde die Definition für den Schutzwald wie folgt festgelegt: +
+_„Ein Schutzwald ist ein Wald, der ein anerkanntes Schadenpotenzial gegen eine bestehende Naturgefahr schützen oder die damit verbundenen Risiken reduzieren kann.“_ (SilvaProtect-CH 2013)
+
+=== Ziel und Vorgehen der Schutzwaldausscheidung
+Die Ausscheidung des Schutzwalds fand im Rahmen des nationalen Projekts „SilvaProtect-CH“ statt. Das Hauptziel des Projekts war die Bereitstellung einer einheitlichen und objektiven Datengrundlage für die Ansprache der Schutzwälder in der Schweiz und dient als Ausgangspunkt für die Schutzwaldausscheidung. Das BAFU hat die relevanten Prozessflächen im Wald und die harmonisierten Kriterien (Gefahrenpotenzial, Schadenpotenzial und Arrondierung) geliefert und die Kantone haben damit die Schutzwaldfläche gemäss harmonisierten Kriterien definiert.
+
+Bei einer Anpassung des kantonalen Schutzwaldperimeters sind dem Bund neu ausgeschiedene Schutzwaldflächen zur Prüfung vorzulegen. Diese werden gemäss der standardisierten Verfahren, wie es im Projekt SilvaProtect-CH zum 
+harmonisierten Schutzwald beschrieben ist, überprüft. Dieses Vorgehen gewährleistet, dass die Qualitätskriterien von SilvaProtect-CH eingehalten werden und die Schutzwaldausscheidung schweizweit nach einheitlichen Kriterien erfolgt.
 
 ifdef::backend-pdf[]
 <<<
