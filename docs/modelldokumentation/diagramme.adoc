@@ -1,9 +1,19 @@
 == Diagramme
-=== [todo] Komponentendiagramm
-image::../img/Komponentendiagramm.jpg[]
+Dieses Thema weist zwei Datenmodelle auf:
 
-=== [todo] Klassendiagramm
-image::../img/Klassendiagramm.jpg[]
+* ein Modell zur Datenbearbeitung (*Bearbeitungsmodell*) und
+* ein Modell zur Datenpublikation (*Publikationsmodell intern*).
+
+Die Datennachführung erfolgt gemäss dem *Bearbeitungsmodell.* Anhand dieses Modells werden neue Schutzwälder eingefügt und bestehende verändert oder gelöscht. Aufgrund der Lage eines Schutzwaldes können weitere Merkmale bestimmt werden. Diese sind z.B. der Forstkreis oder das Frostrevier, in welchem der Schutzwald liegt. Diese abgeleiteten Informationen werden bei der Datenpublikation berechnet und dem Datensatz hinzugefügt. Sie sind Bestandteil des *verwaltungsinternen Publikationsmodells,* welches einen gegenüber dem Bearbeitungsmodell erweiterten Attributumfang aufweist. Das verwaltungsinterne Publikationsmodell weist Attribute auf, die im öffentlichen Datensatz entfernt werden (z.B. die Angaben der Person, welche den Datensatz erfasst hat).
+
+=== Komponentendiagramm (beide Modelle)
+image::../img/Komponentendiagramm.png[]
+
+=== Bearbeitungsmodell: Klassendiagramm
+image::../img/Klassendiagramm_Bearbeitung.png[]
+
+=== Publikationsmodell: Klassendiagramm
+image::../img/Klassendiagramm.png[]
 
 image::../img/Legende Klassendiagramm Variante 1.jpg[width=350]
 
