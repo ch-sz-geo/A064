@@ -7,7 +7,7 @@
 [cols="1, 3"]
 |===
 | Erstelldatum | 2025-01-23
-| letzte Änderung | {docdate}
+| letzte Änderung | 2026-05-11
 | Themen-Nummer | A064
 | ID nach kGeoiV | 161.2 
 | Beteiligte | Bernhard Roth, Fachexperte (BR), Amt für Wald und Natur + 
