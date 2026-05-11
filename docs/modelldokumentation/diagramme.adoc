@@ -15,8 +15,6 @@ image::../img/Klassendiagramm_Bearbeitung.png[]
 === Publikationsmodell: Klassendiagramm
 image::../img/Klassendiagramm.png[]
 
-image::../img/Legende Klassendiagramm Variante 1.jpg[width=350]
-
 ifdef::backend-pdf[]
 <<<
 endif::[]
