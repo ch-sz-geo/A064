@@ -1,7 +1,7 @@
 == Modelltransformationen
 === Transformation vom Bearbeitungsmodell ins Publikationsmodell
-* Quellmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald_Bearbeitung.ili[Bearbeitungsmodell "SZ_Schutzwald_Bearbeitung" (Version: 2025-01-23)]
-* Zielmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald.ili[Publikationsmodell verwaltungsintern "SZ_Schutzwald" (Version: 2025-01-23)]
+* Quellmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald.ili[Bearbeitungsmodell "SZ_Schutzwald" (Version: 2025-01-23)]
+* Zielmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald_Publikation.ili[Publikationsmodell verwaltungsintern "SZ_Schutzwald_Publikation" (Version: 2025-01-23)]
 
 ==== Klasse `+Schutzwald+`
 [cols=3*,options="header"]
@@ -23,7 +23,7 @@ m| Geometrie ^| -> m| Geometrie
 |===
 
 === Transformation vom Publikationsmodell ins minimale Geodatenmodell des Bundes
-* Quellmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald.ili[Publikationsmodell verwaltungsintern "SZ_Schutzwald" (Version: 2025-01-23)]
+* Quellmodell: https://raw.githubusercontent.com/ch-sz-geo/A064/refs/heads/main/models/SZ_Schutzwald_Publikation.ili[Publikationsmodell verwaltungsintern "SZ_Schutzwald_Publikation" (Version: 2025-01-23)]
 * Zielmodell: http://models.geo.admin.ch/BAFU/Schutzwald_V1.ili[Schutzwald_LV95_V1 (Version: 2020-06-16)]
 
 ==== Klasse `+Schutzwald+`
